@@ -4,7 +4,7 @@ const macro = test.macro((t, input, expected) => {
 	t.is(eval(input), expected);
 });
 
-// test('sum', macro, '1 + 2', 3);
+test('sum', macro, '1 + 2', 3);
 
 // #test('subtract', macro, '3 - 2', 1);
 

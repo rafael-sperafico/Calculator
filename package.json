@@ -2,12 +2,16 @@
   "name": "calculator",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "ava"
+  },
   "keywords": [],
   "author": "Rafael Pinto Sperafico",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^5.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafael-sperafico/calculator.git"

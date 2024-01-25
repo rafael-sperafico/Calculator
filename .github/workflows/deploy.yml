@@ -23,8 +23,12 @@ jobs:
           node-version: 16.18
 
       # Install project dependenciea (npm ci - depends on package-lock.json)
-      #- name: Install Dependencies
-      #  run: npm install
+      - name: Install Dependencies
+        run: npm install
+
+      # Ru tests
+      - name: Run tests
+        run: npm test
 
       # Build our project
       #- name: Build

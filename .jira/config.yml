@@ -1,0 +1,13 @@
+# To optimize your issue and deployment views, Jira needs to know if the environment is:
+#   development, testing, staging, or production.
+deployments:
+  environmentMapping:
+    #development:
+    #  - "dev*"
+    #testing:
+    #  - "Test"
+    #  - "TST-*"
+    #staging:
+    #  - "staging"
+    production:
+      - "github-pages"
